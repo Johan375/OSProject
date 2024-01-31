@@ -280,15 +280,51 @@ cache_alignment : 64
 address sizes   : 48 bits physical, 48 bits virtual
 power management: )
 
-9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
+9. Run the command **top** and type **q** to quit. ( processor       : 1
+vendor_id       : AuthenticAMD
+cpu family      : 25
+model           : 1
+model name      : AMD EPYC 7763 64-Core Processor
+stepping        : 1
+microcode       : 0xffffffff
+cpu MHz         : 3101.738
+cache size      : 512 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 1
+initial apicid  : 1
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext invpcid_single vmmcall fsgsbase bmi1 avx2 smep bmi2
+top - 07:01:57 up 26 min,  0 users,  load average: 0.11, 0.27, 0.41
+Tasks:  19 total,   1 running,  18 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 14.3 us, 32.1 sy,  0.0 ni, 53.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   7930.0 total,    166.1 free,   1661.0 used,   6102.9 buff/cache
+top - 07:02:26 up 27 min,  0 users,  load average: 0.06, 0.25, 0.39
+Tasks:  22 total,   1 running,  21 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.5 us,  5.4 sy,  0.0 ni, 92.0 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   7930.0 total,    145.0 free,   1681.2 used,   6103.8 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   5932.7 avail Mem 
 
-10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                 
+   2302 codespa+  20   0   21.1g 341352  46336 S   2.7   4.2   0:50.27 node                                                                                    
+   2771 codespa+  20   0  668864  62720  39168 S   0.3   0.8   0:01.85 node                                                                                    
+      1 codespa+  20   0    1136    640    640 S   0.0   0.0   0:00.04 docker-init                                                                             
+      7 codespa+  20   0    7236   1664   1664 S   0.0   0.0   0:00.01 sleep                                                                                   
+     49 root      20   0   12192   3480   2560 S   0.0   0.0   0:00.00 sshd )   
 
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
+10. Run the command **uname -a**. ( @Johan375 ➜ /workspaces/OSProject (main) $ uname -a
+Linux codespaces-7a7578 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux )
 
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
+11. What is the available free memory in the system. 5.8Gi
 
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
+12. What is the available disk space mounted on /workspace. 17516376
+
+13. Name the version and hardware architecture of the linux Virtual environment. Linux 6.2.0-1018-azure x86_64
 
 14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
 
