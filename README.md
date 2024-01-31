@@ -22,10 +22,8 @@ Team Mates:
 
 ***Questions:***
 
-1. What is the link of the fork OSProject in your repository.
-   ( https://github.com/Johan375/OSProject )
-2. How many files and folders are in this repository.
-   ( 2 )
+1. What is the link of the fork OSProject in your repository. ( https://github.com/Johan375/OSProject )
+2. How many files and folders are in this repository. ( 2 )
 
 
 ## Exploring github codespaces
@@ -57,12 +55,9 @@ Team Mates:
 
 ***Questions:***
 
-1. What is default OS used to run the virtual environment for codespaces. 
-   ( Linux )
-2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces.
-   ( 8GB RAM, 2 cores, 32GB storage and 64GB RAM, 6 cores and 128GB storage )
-3. Why must we commit and sync our current work on source control? 
-   ( Allow us to keep our local repository up to date with the latest changes from other contributors )
+1. What is default OS used to run the virtual environment for codespaces.  ( Linux )
+2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces. ( 8GB RAM, 2 cores, 32GB storage and 64GB RAM, 6 cores and 128GB storage )
+3. Why must we commit and sync our current work on source control? ( Allow us to keep our local repository up to date with the latest changes from other contributors )
 
 ## Exploring the Terminal
 
