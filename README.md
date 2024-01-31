@@ -326,13 +326,13 @@ Linux codespaces-7a7578 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25
 
 13. Name the version and hardware architecture of the linux Virtual environment. Linux 6.2.0-1018-azure x86_64
 
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
+14. What is the difference between **ls** vs **ls -asl**. ls command is used to list files and directories in a directory. ls -asl is an extended form of ls command with specific options of a,s,l
 
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
+15. What is the TLB size of the Virtual CPU. 48 bits
 
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
+16. What is the CPU speed of the Virtual CPU. 2925.664
 
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+17. What is the top running process that consumes the most CPU cycles. 2302 codespa+
 
 ## Running your own container instance.
 
