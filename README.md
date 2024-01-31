@@ -320,19 +320,19 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   5932.7 avail Mem
 10. Run the command **uname -a**. ( @Johan375 ➜ /workspaces/OSProject (main) $ uname -a
 Linux codespaces-7a7578 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux )
 
-11. What is the available free memory in the system. 5.8Gi
+11. What is the available free memory in the system. ( 5.8Gi )
 
-12. What is the available disk space mounted on /workspace. 17516376
+12. What is the available disk space mounted on /workspace. ( 17516376 )
 
-13. Name the version and hardware architecture of the linux Virtual environment. Linux 6.2.0-1018-azure x86_64
+13. Name the version and hardware architecture of the linux Virtual environment. ( Linux 6.2.0-1018-azure x86_64 )
 
-14. What is the difference between **ls** vs **ls -asl**. ls command is used to list files and directories in a directory. ls -asl is an extended form of ls command with specific options of a,s,l
+14. What is the difference between **ls** vs **ls -asl**. ls command is used to list files and directories in a directory. ( ls -asl is an extended form of ls command with specific options of a,s,l )
 
-15. What is the TLB size of the Virtual CPU. 48 bits
+15. What is the TLB size of the Virtual CPU. ( 48 bits )
 
-16. What is the CPU speed of the Virtual CPU. 2925.664
+16. What is the CPU speed of the Virtual CPU. ( 2925.664 )
 
-17. What is the top running process that consumes the most CPU cycles. 2302 codespa+
+17. What is the top running process that consumes the most CPU cycles. ( 2302 codespa+ )
 
 ## Running your own container instance.
 
